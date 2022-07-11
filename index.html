@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="tr-TR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>deneme</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <style>
+        html,
+        body {
+            height: 100%;
+            font-family: "Times New Roman", Times, serif;
+        }
+
+        .cover-inner {
+            text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+        }
+
+        .c-btn {
+            opacity: 0.5;
+        }
+
+        .c-btn:hover {
+            opacity: 1.0;
+        }
+
+        section#cover {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://cutewallpaper.org/21/children-wallpaper/50-Colorful-Cartoon-Wallpapers-for-kids-Backgrounds-in-HD-.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center center;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+            color: white;
+        }
+
+        #navbar,
+        #navbar li a {
+            background-color: transparent !important;
+            color: #fff;
+            font-weight: bold;
+            transition: background-color 200ms linear;
+        }
+
+        #navbar.scrolled,
+        #navbar.scrolled li a {
+            background-color: #e1e1e1 !important;
+            color: #000;
+            transition: background-color 200ms linear;
+        }
+
+        .nav-link:hover,
+        .active {
+            text-decoration-line: underline;
+            text-decoration-thickness: 4px;
+            text-underline-offset: 5px;
+        }
+
+        .card-cover {
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+            transition: transform 5s ease-out 100ms;
+        }
+
+        .card-cover:hover {
+            transform: scale(1.2);
+        }
+
+        /* Animation */
+        /* :root {
+            --animate-delay: 0.05s;
+        } */
+    </style>
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <nav class="py-2 shadow position-fixed sticky-top w-100 animate__animated animate__fadeInDown" id="navbar">
+        <div class="container">
+            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                <a href="." class="navbar-brand" style="font-size: 24px;">Psikoloji</a>
+                <ul class="nav col-12 col-lg-auto justify-content-center mb-md-0 ms-auto" style="font-size: 20px;">
+                    <li><a href="#cover" class="nav-link px-2 active">Anasayfa</a></li>
+                    <li><a href="#konular" class="nav-link px-2">Konular</a></li>
+                    <li><a href="#hakkimizda" class="nav-link px-2">Hakkımızda</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- COVER -->
+    <section class="vstack justify-content-center bg-dark h-100 text-white text-center align-items-center" id="cover">
+        <div class="container cover-inner my-auto">
+            <h1 class="display-2 fw-normal mb-4 animate__animated animate__fadeInUp">Psikoloji</h1>
+            <p class="display-6 fw-light text-lg-start text-center animate__animated animate__fadeInUp">
+                Lorem ipsum dolor sit amet, consectetur adipiscing
+                elit. Curabitur
+                luctus
+                tortor id congue mollis. Ut id
+                mauris vitae dolor viverra volutpat quis ut ipsum. Curabitur in varius eros, in tincidunt purus.</p>
+        </div>
+        <a href="#konular" class="shadow c-btn btn text-white border mb-4 animate__animated animate__fadeInUp">
+            <i class="bi bi-chevron-down"></i>
+        </a>
+    </section>
+
+    <!-- Padding Only -->
+    <div style="padding-top: 1vw; padding-bottom: 1vw; background-color: #ececec;"></div>
+
+    <!-- Konular -->
+    <section id="konular" class="py-5" style="background-color: #ececec">
+        <div class="container px-4 py-5" id="custom-cards">
+            <h2 class="pb-4 border-bottom fw-semibold title">Konular</h2>
+
+            <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-2">
+
+                <div class="col">
+                    <div class="card h-100 overflow-hidden text-white rounded-4 shadow-lg">
+                        <div class="card-cover d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1"
+                            style="background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('./assets/image1.jpg');">
+                            <a href="#" class="stretched-link text-decoration-none text-white">
+                                <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Short title, long jacket</h2>
+                            </a>
+                            <small class="my-auto ms-auto fw-bold">Furkan Çavdar</small>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100 overflow-hidden text-white rounded-4 shadow-lg">
+                        <div class="card-cover d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1"
+                            style="background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('./assets/image2.jpg');">
+                            <a href="#" class="stretched-link text-decoration-none text-white">
+                                <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Much longer title that wraps to
+                                    multiple
+                            </a>
+                            lines</h2>
+                            <small class="my-auto ms-auto fw-bold">Furkan Çavdar</small>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col">
+                    <div class="card h-100 overflow-hidden text-white rounded-4 shadow-lg">
+                        <div class="card-cover d-flex flex-column h-100 p-5 pb-3 text-shadow-1"
+                            style="background-image: url('./assets/image3.jpg');">
+                            <a href="#" class="stretched-link text-decoration-none text-white">
+                                <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Another longer title belongs here</h2>
+                            </a>
+                            <small class="my-auto ms-auto fw-bold">Furkan Çavdar</small>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-3">
+
+                <div class="col">
+                    <div class="card h-100 overflow-hidden text-white rounded-4 shadow-lg">
+                        <div class="card-cover d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1"
+                            style="background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./assets/image4.png);">
+                            <a href="#" class="stretched-link text-decoration-none text-white">
+                                <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Short title, long jacket</h2>
+                            </a>
+                            <small class="my-auto ms-auto fw-bold">Furkan Çavdar</small>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100 overflow-hidden text-white rounded-4 shadow-lg">
+                        <div class="card-cover d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1"
+                            style="background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('./assets/image5.jpg');">
+                            <a href="#" class="stretched-link text-decoration-none text-white">
+                                <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Much longer title that wraps to
+                                    multiple
+                            </a>
+                            lines </h2>
+                            <small class="my-auto ms-auto fw-bold">Furkan Çavdar</small>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100 overflow-hidden text-white rounded-4 shadow-lg">
+                        <div class="card-cover d-flex flex-column h-100 p-5 pb-3 text-shadow-1"
+                            style="background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('./assets/image6.jpg');">
+                            <a href="#" class="stretched-link text-decoration-none text-white">
+                                <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Another longer title belongs here</h2>
+                            </a>
+                            <small class="my-auto ms-auto fw-bold">Furkan Çavdar</small>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Hakkimizda -->
+    <section id="hakkimizda" class="pt-5">
+        <div class="container px-4 py-5">
+            <h2 class="pb-4 border-bottom fw-semibold title">Hakkımızda</h2>
+
+            <div class="row justify-content-center py-5">
+                <div class="col-lg-4 col-6 text-center align-self-center anim anim-l">
+                    <img src="assets/image3.jpg" alt="profile-picture" class="w-50 rounded-4 shadow">
+                    <!-- <img src="https://via.placeholder.com/150.png?text=Profile+Picture" alt="profile-picture"
+                        class="rounded-4 shadow"> -->
+                    <h5 class="text-muted mt-3">Furkan Çavdar <br> s18465</h5>
+                </div>
+                <div class="col-lg-8 col-12 mt-4 anim anim-r">
+                    <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas et imperdiet sem.
+                        Suspendisse
+                        quis tellus dui. Suspendisse at mauris at orci vehicula tempus sed vitae arcu. Vestibulum
+                        ornare
+                        metus nibh, vel laoreet magna aliquam nec. In hac habitasse platea dictumst. Proin eget
+                        pretium
+                        lacus. Nam rhoncus lobortis libero. Integer fringilla mollis aliquet. Interdum et malesuada
+                        fames ac ante ipsum primis in faucibus. Praesent quis placerat lacus. Sed pretium ut justo
+                        ut
+                        ultrices. Cras et mollis nisl. Fusce nec tempor mauris.
+                    </h5>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="container border-top text-muted py-4">
+        <p class="float-end"><a href="#cover" class="text-muted text-decoration-none">Yukarı Çık</a></p>
+        <p>© 2022 Psikoloji ·
+            <a href="#cover" class="text-muted text-decoration-none">Anasayfa</a> ·
+            <a href="#konular" class="text-muted text-decoration-none">Konular</a> ·
+            <a href="#hakkimizda" class="text-muted text-decoration-none">Hakkımızda</a>
+        </p>
+    </footer>
+
+    <script>
+        document.addEventListener("scroll", (event) => {
+            // Navbar Color Anim
+            const nav_el = document.querySelector("#navbar");
+            const cover_el = document.querySelector("#cover");
+
+            nav_el.classList.toggle("scrolled", document.documentElement.scrollTop > cover_el.offsetHeight);
+
+            // Navbar Active Item Highlight
+            const sections = document.querySelectorAll("section[id]");
+            let scrollY = window.pageYOffset;
+
+            sections.forEach(element => {
+                const contentHeight = element.offsetHeight;
+                const contentTop = element.offsetTop - 50;
+                sectionId = element.getAttribute("id");
+
+                if (scrollY > contentTop && scrollY <= contentTop + contentHeight) {
+                    document.querySelector(".nav a[href*=" + sectionId + "]").classList.add("active");
+                }
+                else {
+                    document.querySelector(".nav a[href*=" + sectionId + "]").classList.remove("active");
+                }
+            });
+        });
+
+        // Cards Animation
+        const animateCSS = (node, animation, prefix = 'animate__') => {
+            new Promise((res, rej) => {
+                const animationName = `${prefix}${animation}`;
+
+                node.classList.add(`${prefix}animated`, animationName);
+
+                function handleAnimationEnd(event) {
+                    event.stopPropagation();
+                    // node.classList.remove(`${prefix}animated`, animationName);
+                    res('Animation ended');
+                }
+
+                node.addEventListener('animationend', handleAnimationEnd, { once: true });
+            });
+        };
+
+        // IntersectionObserver and Call animateCSS()
+        let observer = new IntersectionObserver(function (nodes, o) {
+            nodes.forEach(node => {
+                if (node.isIntersecting === true) {
+                    node.target.style.visibility = "visible";
+
+                    if (node.target.classList.contains('card')) {
+                        animateCSS(node.target, 'fadeInUp');
+                        o.unobserve(node.target);
+                    }
+                    else if (node.target.classList.contains('anim-l')) {
+                        animateCSS(node.target, 'fadeInLeft');
+                        o.unobserve(node.target);
+                    }
+                    else if (node.target.classList.contains('anim-r')) {
+                        animateCSS(node.target, 'fadeInRight');
+                        o.unobserve(node.target);
+                    }
+                    else if (node.target.classList.contains('title')) {
+                        animateCSS(node.target, 'fadeInDown');
+                        o.unobserve(node.target);
+                    }
+                }
+            });
+        }, { threshold: [0.5] });
+
+        const cards = document.querySelectorAll('#konular .card'); // Get all cards
+        cards.forEach(card => {
+            card.style.visibility = "hidden";
+            observer.observe(card);
+        });
+
+        const hakkimizda = document.querySelectorAll('#hakkimizda .anim');
+        hakkimizda.forEach(hakkikimizda_el => {
+            hakkikimizda_el.style.visibility = "hidden";
+            observer.observe(hakkikimizda_el);
+        });
+
+        const titles = document.querySelectorAll('.title');
+        titles.forEach(title => {
+            title.style.visibility = "hidden";
+            observer.observe(title);
+        });
+    </script>
+</body>
+
+</html>
