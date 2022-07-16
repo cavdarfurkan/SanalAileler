@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr-TR">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Konu Template</title>
+    <title>Psikoloji · Konu Template</title>
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
@@ -35,26 +35,67 @@
             text-underline-offset: 5px;
         }
 
-        .title {
-            font-size: 31px;
-            color: #111;
-            font-weight: bold;
+        .breadcrumb-item a {
+            text-decoration: none;
+            color: gray;
         }
 
-        .subtitle {
-            font-size: 22px;
-            color: #111;
+        .breadcrumb-item a:hover {
+            color: black;
         }
 
-        p {
-            font-size: 21px;
+        .square-clip {
+            width: 98px;
+            height: 98px;
+            object-fit: cover;
+        }
+
+        .card {
+            /* width: 300px; */
+            height: 100px;
+        }
+
+        .fs-18px {
+            font-size: 18px;
+        }
+
+        #custom-list li {
+            margin-left: 10px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+        }
+
+        /* .references li {
+    list-style-type: '- ';
+} */
+
+        #right-sec a {
+            text-decoration: none;
+            color: black;
+        }
+
+        #right-sec a:hover {
+            background-color: whitesmoke;
+        }
+
+        .c-font-lh {
+            font-family: "Times New Roman", Times, serif;
+            line-height: 1.5;
+        }
+
+        #c-header {
+            background-color: #D5D7D9;
+        }
+
+        #c-footer {
+            background-color: #D5D7D9;
         }
     </style>
 </head>
 
 <body>
     <!-- NAVBAR -->
-    <nav class="py-2 shadow position-fixe sticky-top w-100 animate__animated animate__fadeInDown" id="navbar">
+    <nav class="py-2 shadow-sm position-fixe sticky-top w-100 animate__animated animate__fadeInDown" id="navbar">
         <div class="container">
             <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
                 <a href="../index.html" class="navbar-brand" style="font-size: 24px;">Psikoloji</a>
@@ -67,144 +108,177 @@
         </div>
     </nav>
 
-    <!-- Article -->
-    <section>
-        <div class="container">
-            <div class="row my-5">
-                <div class="col-lg-2"></div>
-                <div class="col-lg-8 col-12">
-                    <h1 class="title">
-                        Dişlerimizi Günde Kaç Defa Fırçalamamız Gerekir? <br> Dişlerimizi Neden Fırçalıyoruz?
-                        Fırçalamasak Ne
-                        Olur?
-                    </h1>
-                    <h2 class="subtitle">
-                        Binlerce Yıldır Dişlerimizi Fırçalamadan Yaşıyoruz, Şimdi Neden Fırçalayalım ki?
-                    </h2>
-                    <small class="fw-bold text-black-50">Furkan Çavdar</small>
-                    <div class="text-center py-3">
-                        <img src="https://cdn.evrimagaci.org/u24iBgM6dZFRNJJd0AJxFoF-pIA=/2000x0/evrimagaci.org%2Fpublic%2Fcontent_media%2F3e7a513fc5680912c94ae4b9789cd408.jpg"
-                            alt="dis-curuk" class="w-100 rounded-3">
-                    </div>
-                    <p>
-                        &emsp;&emsp;İşte tüm bu diş aşınmalarıyla mücadele etmek adına diş fırçalamak, birçok insan için
-                        tırnak
-                        kesmek veya tuvalet yapmak kadar "doğal" bir davranıştır. Çoğumuz dişlerimizi günde en az 1,
-                        muhtemelen 2 defa fırçalarız; fakat bunun mantığı ne, hiç düşündünüz mü? Sonuçta savanalarda
-                        yaşayan atalarımızın diş macununa ve diş fırçasına erişimi yoktu. Biz neden dişlerimizi
-                        fırçalamak zorundayız ki?
-                    </p>
-
-                    <p>
-                        &emsp;&emsp;Öncelikle, dişlerimizi ne sıklıkla fırçalamamız gerektiği sorusunu cevaplayalım ve
-                        ardında yatan mantığı izah edelim: Hem Türk Dişhekimleri Birliği hem de Amerikan Diş Birliği,
-                        günde 2 defa, flüorürlü diş macunlarıyla, her biri en az 2 dakika sürmek kaydıyla dişlerinizi
-                        fırçalamayı önermektedir. Dişlerinizi fırçalamanızın nedeni, dişlerimiz arasına sıkışan
-                        yemek parçacıklarını ve dişlerimiz üzerinde biriken beyaz renkli, yapışkan ve <span
-                            class="fw-bold">içi bakteri dolu
-                            plakları</span> temizlemektir. Özellikle de yemek yedikten veya yüksek şeker içerikli
-                        içecekler
-                        tükettikten sonra, bu plaklar içerisindeki bakteriler asitler üreterek diş minesine saldırır.
-                        Nihayetinde bu asit, mine tabakasının parçalanmasına neden olur ve <span
-                            class="fw-bold">çürük</span> dediğimiz yapıları
-                        oluşturur. Temizlenmeyen plaklar ise sertleşerek <span class="fw-bold">tartar</span> adı verilen
-                        daha kalın tabakalar
-                        üretirler; bunların temizlenmesi çok daha zordur. Diş etinizde biriken tartar, nihayetinde
-                        iltihaplanmaya ve diş eti hastalıklarına yol açar.
-                    </p>
-
-                    <p>
-                        &emsp;&emsp;Aslında günde 2 defa diş fırçalama önerisi, yaygın olarak görülen beslenme
-                        düzenlerine yönelik olarak önerilmektedir. Sizler, dişlerinizi fırçalama zamanınızı ve sıklığını
-                        belirlerken, kendi beslenme düzeninizi gözetmelisiniz. Eğer gün içerisinde daha sık öğün
-                        yiyorsanız, dişlerinizi de daha sık fırçalayabilirsiniz. Benzer şekilde, eğer çok asidik bir
-                        yiyecek veya içecek tükettiyseniz, dişlerinizi hemen fırçalamanızı önermeyiz; çünkü bu asitler
-                        dişlerinize temas ettiğinde onları anında zayıflatır ve tam da bu sırada mekanik bir baskı
-                        uygulamak, mine tabakasını daha hızlı aşındırabilir. Bunun yerine, bir süre bekleyip, sonra
-                        fırçalamanızı öneririz (hatta mümkünse asitli içerikleri tüketmekten uzak durabilirsiniz).
-                        Dişlerinizi nasıl fırçalamanız gerektiğini merak ediyorsanız, aşağıdaki videoyu
-                        izleyebilirsiniz:
-                    </p>
-                    <div class="text-center py-3">
-                        <img src="https://via.placeholder.com/800x400" alt="dis-curuk" class="w-100 rounded-3">
-                    </div>
-
-                    <p>
-                        &emsp;&emsp;Elbette, herkes dişlerini fırçalamaz. Örneğin, Twitter hesabımızdan bu konuyla
-                        ilgili olarak yönelttiğimiz bir soruda, 47.347 katılımcımızın %44.7'si günde 1 defa, %44.3'ü
-                        günde 2 defa, %4.1'i her yemekten sonra dişlerini fırçaladıklarını söylerken, %6.9'u (3266 kişi)
-                        dişlerini hiç fırçalamadığını söyledi. Telegram üzerinden yaptığımız benzer bir ankete katılan
-                        1787 kişinin %3'ü ayda birkaç defa, %2'si haftada 2 kez, %2'si haftada 1 kez fırçaladığını,
-                        %2'si ise hiç fırçalamadığını söyledi (Twitter'daki anketimizin aksine, Telegram anketimizde
-                        katılımcılar birden fazla şıkkı işaretleyebiliyordu).
-                    </p>
-
-                    <h2 class="fw-bold" style="font-size: 37px;">
-                        Atalarımız Dişlerini Fırçalamıyordu, Biz Neden Fırçalayalım ki?
-                    </h2>
-
-                    <p>&emsp;&emsp;
-                        İnsanların yüz binlerce yıldır, insansı atalarımızın ise milyonlarca yıldır dişlerini hiç
-                        fırçalamadan yaşadıkları doğrudur. Ancak şu da bir gerçektir: <span class="fw-bold">Biz modern
-                            insanlar, atalarımızın yaşam tarzının ve tükettiği besinlerin yanına bile
-                            yaklaşmıyoruz!</span> Dolayısıyla dişleri fırçalamamak için evrimsel tarihi neden göstermek
-                        büyük bir hata olacaktır. Eğer ki vahşi yaşam standartlarına dönüp, o şekilde beslenmeyi göze
-                        almayacaksanız, mecburen diş fırçalarınızı kullanmak durumundasınız.
-                    </p>
-                    <p>&emsp;&emsp;
-                        Dahası, insanlar üzerine etki eden Doğal Seçilim'in özellikle son 10.000 yıldır dikkate değer
-                        miktarda yavaşlamış olması da, evrimi diş fırçalamaktan kurtulmak için bahane olarak göstermenin
-                        önüne geçmektedir. Yine aynı sebeple: Artık vahşi yaşam içerisinde değiliz ve diş yapısına bağlı
-                        olarak hayatta kalıp ölmüyoruz. Bunun yerine dişimiz ağrıdığında, diş ağrısı bizi öldürene kadar
-                        zar zor hayatta kalmak yerine, bir diş hekimine gidip sorunu kökünden hallediveriyoruz. Bu
-                        durumda, eğer ki diş tedavisine gereğinden fazla para harcamak istemiyorsanız, dişlerinizi
-                        düzgünce fırçalamak durumundasınız.
-                    </p>
-                    <p>&emsp;&emsp;Modern çağlarda tükettiğimiz besinler, dişlerimiz üzerinde en fazla olumsuz etkiyi
-                        yaratan unsurlardır. Tabii ki diş fırçalama zorunluluğu da, bu duruma bağlı olarak doğmaktadır.
-                        Atalarımızın yaptığı gibi bir büyük baş hayvanı bir uçurumun kenarında sıkıştırıp, korkutarak
-                        aşağı düşmesini ve ölmesini sağlayıp, uçurumun altına ulaşıp ölü hayvanı parçalara ayırıp,
-                        pişirip yememekteyiz. Bunun yerine yediğimiz birçok besin, çiftliklerde yetiştirilmiş
-                        hayvanlarda, işlenmiş besinlerden ve abartılı miktarda şekere bulanmış ürünlerden geliyor.
-                        Örneğin marketten alacağınız basit bir kek ya da pasta, doğal diyetimizde bulunmayan bol
-                        miktarda besini içerisinde barındırmaktadır. Atalarımız, öğütülmüş tohum tozu olan unu,
-                        günümüzde son derece yapay bir şekilde üretilen şekeri, tereyağını, evcilleştirilmiş kuş
-                        yumurtasını tüketmiyorlardı. Bizlerse bunların bir karışımı olan pasta ve kek gibi ürünlere
-                        dişlerimizi gömüyor, onların içeriğini dişlerimizle ezerek öğütmeye çalışıyoruz. Dahası, bu
-                        keklerin üzerine son derece bol miktarda şekerli meyveler, kremşantiler, vs. ekliyoruz. Hiçbir
-                        insan türü, bu kadar yoğun kalorili, ve bu kadar bol şekerli ürünleri diyetinde barındıracak
-                        şekilde evrimleşmemiştir.
-                    </p>
-                    <p>&emsp;&emsp;
-                        Peki bu yiyecekleri parçalamaya yarayan dişlerimizde, bu besinlerden gelen aşırı yüksek şeker
-                        sayesinde bir ziyafet çekmeyi kimler beklemektedir? Milyarlarca ve milyarlarca bakteri!
-                        Özellikle de Streptococcus mutans türü bakteriler. Bu bakterilerin hayattaki tek amacı, ağzınıza
-                        attığınız nişasta gibi şekerleri kullanarak hayatını idame ettirmektir. Bunu yaparken
-                        dişlerinizi aşınmasına neden olan asitli bileşenler üretirler. Dişleriniz arasında sıkışan
-                        yüksek nişastalı besin artıkları, su ve bakteri, dişlerinizin yavaş yavaş aşınmasına neden olan
-                        bakteriler harika bir yaşam alanı yaratmaktadır.
-                    </p>
-
-                    <h2 class="fw-bold" style="font-size: 36px;">Sonuç</h2>
-
-                    <p>&emsp;&emsp;
-                        <span class="fw-bold">Evet, diş fırçalamak hayatta kalmak ya da üremek kadar içsel olarak doğal
-                            davranışlar değildir. Ancak içerisinde yaşadığımız hayat biçimleri de aynı şekilde içsel
-                            olarak doğal değildir.</span> Bizler, kültürümüzle bu sistemi inşa ettik. Diş fırçalama
-                        davranışı da, bu yeni ortama adaptasyon sırasında geliştirdiğimiz yöntemlerden birisi. Nasıl ki
-                        arabaya binmek doğal değil diye arabaya binmemezlik etmiyorsanız, dişlerimizi fırçalamak doğal
-                        değil diye diş fırçalamamazlık edemezsiniz.
-                    </p>
-
-                    <p>
-                        Ya da edin tabii, sizin bileceğiniz iş...
-                    </p>
-                    <p>&emsp;&emsp;</p>
-                </div>
-                <div class="col-lg-2"></div>
-            </div>
+    <div class="container my-5 c-font-lh">
+        <div class="d-block">
+            <!-- BREADCRUMB -->
+            <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E&#34;);"
+                aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="../index.html">Anasayfa</a></li>
+                    <li class="breadcrumb-item active fw-bold text-black-50" aria-current="page">Lorem İpsum</li>
+                </ol>
+            </nav>
+            <h1 class="text-capitalize text-start fw-bold">Lorem Ipsum Doler Sit Amet Lorem Ipsum Doler Sit Amet Lorem
+                Ipsum Doler Sit Amet</h1>
+            <p class="fw-bold text-black-50">Furkan Çavdar</p>
         </div>
-    </section>
+        <div class="row">
+            <!-- LEFT SECTION -->
+            <section class="col-lg-9">
+
+
+                <!-- TOP IMAGE -->
+                <div class="container text-start">
+                    <img src="https://via.placeholder.com/1366x768.png?text=İÇ+RESİM" alt="medya-ic"
+                        class="img-fluid rounded my-3">
+                </div>
+
+                <!-- ARTICLE -->
+                <p class="fs-18px">&emsp;&emsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Nibh nisl condimentum id venenatis a condimentum
+                    vitae sapien pellentesque. Ultricies leo integer malesuada nunc vel risus. Egestas sed sed risus
+                    pretium quam. Cursus sit amet dictum sit amet justo donec enim diam. Adipiscing elit ut aliquam
+                    purus sit amet luctus venenatis. In cursus turpis massa tincidunt dui ut ornare lectus sit. Sapien
+                    nec sagittis aliquam malesuada bibendum arcu vitae elementum curabitur. Quisque id diam vel quam.
+                    Nibh ipsum consequat nisl vel.
+                </p>
+                <p class="fs-18px">&emsp;&emsp;Nisl vel pretium lectus quam id leo in vitae turpis. Egestas purus
+                    viverra accumsan in nisl nisi scelerisque eu. Lacus vestibulum sed arcu non odio euismod lacinia at
+                    quis. Dignissim sodales ut eu sem integer vitae. Enim nunc faucibus a pellentesque sit amet
+                    porttitor eget dolor. Viverra nam libero justo laoreet sit amet. A iaculis at erat pellentesque
+                    adipiscing commodo. Amet aliquam id diam maecenas ultricies mi eget. Ac tincidunt vitae semper quis
+                    lectus nulla at volutpat. Id venenatis a condimentum vitae sapien pellentesque habitant morbi
+                    tristique. Cras ornare arcu dui vivamus arcu felis.
+                </p>
+
+
+
+                <div class="py-3">
+                    <h4 class="fw-bold text-center pb-3">Ornare arcu odio ut sem nulla pharetra.</h4>
+                    <ul class="fs-18px" id="custom-list">
+                        <li>
+                            Penatibus et magnis dis parturient montes nascetur. Vestibulum lectus mauris ultrices eros
+                            in cursus turpis massa. Quisque egestas diam in arcu cursus euismod.
+                        </li>
+                        <li>
+                            Est ultricies integer quis auctor elit sed vulputate mi sit. Posuere sollicitudin aliquam
+                            ultrices sagittis orci a scelerisque purus semper. Integer vitae justo eget magna fermentum
+                            iaculis eu non. Faucibus a pellentesque sit amet porttitor eget dolor.
+                        </li>
+                        <li>
+                            Ultrices tincidunt arcu non sodales. Purus in massa tempor nec. Sed nisi lacus sed viverra
+                            tellus. Cursus vitae congue mauris rhoncus aenean vel elit scelerisque mauris.
+                        </li>
+                        <li>
+                            Cum sociis natoque penatibus et magnis dis parturient montes nascetur. Nullam eget felis
+                            eget nunc lobortis. Eros donec ac odio tempor orci. A condimentum vitae sapien pellentesque.
+                        </li>
+                    </ul>
+                </div>
+
+                <p class="fs-18px">
+                    &emsp;&emsp;Fringilla ut morbi tincidunt augue interdum velit euismod in. Massa sed elementum tempus
+                    egestas sed sed risus pretium quam. Nam libero justo laoreet sit amet cursus sit. Maecenas accumsan
+                    lacus vel facilisis volutpat est. Turpis in eu mi bibendum neque egestas. Habitant morbi tristique
+                    senectus et netus. Dolor sit amet consectetur adipiscing elit ut aliquam. Lacinia quis vel eros
+                    donec. Tortor consequat id porta nibh venenatis. Iaculis nunc sed augue lacus viverra vitae congue
+                    eu consequat. Mattis nunc sed blandit libero. Feugiat pretium nibh ipsum consequat nisl vel pretium
+                    lectus. Lorem dolor sed viverra ipsum nunc aliquet bibendum enim. Purus ut faucibus pulvinar
+                    elementum integer enim neque volutpat ac.
+                </p>
+
+                <!-- REFERENCES -->
+                <div class="py-5 references">
+                    <h5 class="fw-bold text-start pb-3 border-bottom">Kaynaklar ve İleri Okuma</h5>
+                    <ol class="lh-lg">
+                        <li>Luctus accumsan tortor posuere ac. Ultricies tristique nulla aliquet enim tortor at auctor
+                            urna nunc.</li>
+                        <li>Augue mauris augue neque gravida in fermentum et sollicitudin ac.</li>
+                    </ol>
+                </div>
+
+                <!-- AUTHOR -->
+                <p class="fs-18px fw-bold text-end">Furkan Çavdar</p>
+            </section>
+
+            <!-- RIGHT SECTION -->
+            <section class="col-lg-3 mb-auto gy-5" id="right-sec">
+                <!-- OTHERS CARD -->
+                <!-- <h4 class="text-start fw-bold">Diğerleri</h4> -->
+
+                <!-- <div class="d-flex flex-row my-4">
+                    <a href="#" class="d-flex">
+                        <img src="https://via.placeholder.com/98.png" alt="#" class="rounded square-clip">
+                        <div class="flex-column">
+                            <h5 class="lh-1 fs-6 fw-bold text-start ms-2 mt-2">Lorem İpsum</h5>
+                            <p class="text-start fs-6 lh-sm ms-2 mt-2">Lorem İpsum...
+                            </p>
+                        </div>
+                    </a>
+                </div> -->
+                <div class="d-flex flex-row my-4">
+                    <a href="#" class="d-flex">
+                        <img src="https://via.placeholder.com/98.png" alt="#" class="rounded square-clip">
+                        <div class="flex-column">
+                            <h5 class="lh-1 fs-6 fw-bold text-start ms-2 mt-2">Lorem İpsum</h5>
+                            <p class="text-start fs-6 lh-sm ms-2 mt-2">Lorem İpsum...
+                            </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="d-flex flex-row my-4">
+                    <a href="#" class="d-flex">
+                        <img src="https://via.placeholder.com/98.png" alt="#" class="rounded square-clip">
+                        <div class="flex-column">
+                            <h5 class="lh-1 fs-6 fw-bold text-start ms-2 mt-2">Lorem İpsum</h5>
+                            <p class="text-start fs-6 lh-sm ms-2 mt-2">Lorem İpsum...
+                            </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="d-flex flex-row my-4">
+                    <a href="#" class="d-flex">
+                        <img src="https://via.placeholder.com/98.png" alt="#" class="rounded square-clip">
+                        <div class="flex-column">
+                            <h5 class="lh-1 fs-6 fw-bold text-start ms-2 mt-2">Lorem İpsum</h5>
+                            <p class="text-start fs-6 lh-sm ms-2 mt-2">Lorem İpsum...
+                            </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="d-flex flex-row my-4">
+                    <a href="#" class="d-flex">
+                        <img src="https://via.placeholder.com/98.png" alt="#" class="rounded square-clip">
+                        <div class="flex-column">
+                            <h5 class="lh-1 fs-6 fw-bold text-start ms-2 mt-2">Lorem İpsum</h5>
+                            <p class="text-start fs-6 lh-sm ms-2 mt-2">Lorem İpsum...
+                            </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="d-flex flex-row my-4">
+                    <a href="#" class="d-flex">
+                        <img src="https://via.placeholder.com/98.png" alt="#" class="rounded square-clip">
+                        <div class="flex-column">
+                            <h5 class="lh-1 fs-6 fw-bold text-start ms-2 mt-2">Lorem İpsum</h5>
+                            <p class="text-start fs-6 lh-sm ms-2 mt-2">Lorem İpsum...
+                            </p>
+                        </div>
+                    </a>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="container border-top text-muted py-4">
+        <p class="float-end"><a href="#" class="text-muted text-decoration-none">Yukarı Çık</a></p>
+        <p>© 2022 Psikoloji ·
+            <a href="../index.html#cover" class="text-muted text-decoration-none">Anasayfa</a> ·
+            <a href="../index.html#konular" class="text-muted text-decoration-none">Konular</a> ·
+            <a href="../index.html#hakkimizda" class="text-muted text-decoration-none">Hakkımızda</a>
+        </p>
+    </footer>
 </body>
 
 </html>
