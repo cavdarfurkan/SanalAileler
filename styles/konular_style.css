@@ -1,0 +1,75 @@
+html,
+        body {
+            font-family: "Times New Roman", Times, serif;
+            background-color: #fff;
+        }
+
+        #navbar,
+        #navbar li a {
+            background-color: #e1e1e1 !important;
+            color: #000;
+            font-weight: bold;
+        }
+
+        .nav-link:hover,
+        .active {
+            text-decoration-line: underline;
+            text-decoration-thickness: 4px;
+            text-underline-offset: 5px;
+        }
+
+        .breadcrumb-item a {
+            text-decoration: none;
+            color: gray;
+        }
+
+        .breadcrumb-item a:hover {
+            color: black;
+        }
+
+        .square-clip {
+            width: 98px;
+            height: 98px;
+            object-fit: cover;
+        }
+
+        .card {
+            /* width: 300px; */
+            height: 100px;
+        }
+
+        .fs-18px {
+            font-size: 18px;
+        }
+
+        #custom-list li {
+            margin-left: 10px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+        }
+
+        /* .references li {
+    list-style-type: '- ';
+} */
+
+        #right-sec a {
+            text-decoration: none;
+            color: black;
+        }
+
+        #right-sec a:hover {
+            background-color: whitesmoke;
+        }
+
+        .c-font-lh {
+            font-family: "Times New Roman", Times, serif;
+            line-height: 1.5;
+        }
+
+        #c-header {
+            background-color: #D5D7D9;
+        }
+
+        #c-footer {
+            background-color: #D5D7D9;
+        }
