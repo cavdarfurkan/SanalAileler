@@ -17,7 +17,8 @@ body {
 }
 
 section#cover {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://cutewallpaper.org/21/children-wallpaper/50-Colorful-Cartoon-Wallpapers-for-kids-Backgrounds-in-HD-.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../assets/header.jpg");
+    background-repeat: no-repeat;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center center;
@@ -38,8 +39,8 @@ section#cover {
 
 #navbar.scrolled,
 #navbar.scrolled li a {
-    background-color: #e1e1e1 !important;
-    color: #000;
+    background-color: rgb(223,116,38) !important;
+    color: #fff;
     transition: background-color 200ms linear;
 }
 
