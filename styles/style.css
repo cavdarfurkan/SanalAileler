@@ -39,7 +39,7 @@ section#cover {
 
 #navbar.scrolled,
 #navbar.scrolled li a {
-    background-color: rgb(223,116,38) !important;
+    background-color: rgb(223, 116, 38) !important;
     color: #fff;
     transition: background-color 200ms linear;
 }
@@ -60,4 +60,8 @@ section#cover {
 
 .card-cover:hover {
     transform: scale(1.2);
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.4);
 }
