@@ -37,9 +37,8 @@ section#cover {
     transition: background-color 200ms linear;
 }
 
-#navbar.scrolled,
-#navbar.scrolled li a {
-    background-color: rgb(223, 116, 38) !important;
+#navbar.scrolled {
+    background: linear-gradient(90deg, rgba(223,116,38,1) 20%, rgba(197,35,97,1) 70%);
     color: #fff;
     transition: background-color 200ms linear;
 }
@@ -49,6 +48,7 @@ section#cover {
     text-decoration-line: underline;
     text-decoration-thickness: 4px;
     text-underline-offset: 5px;
+    text-decoration-skip-ink: none;
 }
 
 .card-cover {
